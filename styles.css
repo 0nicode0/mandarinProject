@@ -17,8 +17,8 @@ body {
 
 .content{
     margin: auto;
-    width: 700px;
-    max-width: 2300px;
+    width: 680px;
+    max-width: 100%;
     padding-bottom: 10px;
     background-color: #fff;
 }
@@ -29,24 +29,27 @@ body {
 
 header {
     margin: auto;
-    width: 700px;
-    max-height: 200px;
+    width: 680px;
+    max-width: 100%;
+    height: 150px;
+    max-height: 150px;
     background-color: #fff;
-    max-width: 2300px;
     padding-top: 20px;
+    padding-bottom: 0;
     text-align: center;
 }
 
 header img {
     width: 100%;
-    height: 200px;
+    height: 150px;
+    max-height: 160%;
 }
 
 footer {
     margin: auto;
-    width: 700px;
+    width: 680px;
     max-height: 200px;
-    max-width: 2300px;
+    max-width: 100%;
     padding-top: 10px;
     text-align: center;
     font-size: 12px;
@@ -54,6 +57,11 @@ footer {
 
 footer img {
     width: 100%;
+    height: 80px;
+}
+
+footer p{
+    margin: 10px;
 }
 
 .section{
@@ -61,41 +69,78 @@ footer img {
     padding-right: 40px;
 }
 
-/* Contêiner que envolve as imagens e o texto */
-.conteudo-imagem2 {
-    display: flex; 
+.section p {
+    margin: 0;
 }
 
-/* Cada imagem com texto */
+.conteudo-imagem2 {
+    display: flex; 
+    width: 100%;
+}
+
+.conteudo-imagem2 img {
+    max-width: 100%;
+    height: 200%;
+    max-height: 210px;
+}
+
 .imagem-com-texto {
     display: flex;
     flex-direction: column; 
-    gap: 10px;
+    font-size: 15px;
+}
+
+.imagem-com-texto p {
+    margin-bottom: px;
 }
 
 .imagem-com-texto p.small:last-child {
     margin-bottom: 0;
 }
 
-.colored-bar{
-    width: 60%;
-    height: 5px; 
-    background-color: #3498db;
+#bar1 {
+    width: 50%;
+    height: 5px;
+    background-color:  #3498db;
+    margin-bottom: 10px;
 }
 
-.small{
-    font-size: 10px;
+#bar2 {
+    width: 60%;
+    height: 5px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+
+#bar3 {
+    width: 60%;
+    height: 5px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 h3 {
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
     font-size: 20px;
+    width: 100%;
     margin: 0;
+    padding: 0;
+
 }
 
-p {
-    margin: 0;
+.small{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.671);
+    padding-top: 5px;
+    gap: 0;
 }
-
 
 
 /* Estilos responsivos */
