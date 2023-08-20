@@ -1,2 +1,2 @@
-#My Project Mandarin
-##HTML and CSS
+# ✨ My Mandarin Project ✨
+## HTML and CSS
